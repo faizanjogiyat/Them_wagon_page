@@ -6,7 +6,7 @@
 
 }
 
-header{
+.header1{
     width: 100%;
     height: 65px;
     display: flex;
@@ -16,15 +16,6 @@ header{
     position:fixed;
 }
 
-.header2{
-    width: 100%;
-    height: 65px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: black;
-    /* position:fixed; */
-}
 
 a{
     text-decoration: none;
@@ -116,37 +107,48 @@ nav a{
     .container{
         background-repeat: no-repeat;
         width: 36%;  
-        height: 100vh;
+        height: 98vh;
        background-image: url(https://themewagon.gitlab.io/restaurant/assets/img/food/Vector.png);
        margin-bottom: 10px;
        display: grid;
-        grid-template-columns: 610px 460px;
-        align-items: center;
+       grid-template-columns: 610px 460px;
+       align-items: center;
     } 
-
-
-/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-
-
-    /* .container1{
+    
+    
+    /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+    
+    
+    .container1{
         background-repeat: no-repeat;
         width: 100p%;
         height: 100%;
-       background-image: url(https://themewagon.gitlab.io/restaurant/assets/img/food/Vector.png);
-       display:grid; 
+        background-image: url(https://themewagon.gitlab.io/restaurant/assets/img/food/Vector.png);
+        background-position: fixed;
+        display:grid; 
        grid-template-columns:450px 450px 450px  ;
        grid-template-rows: 400px 400px 400px ;
        align-items: center;
        justify-items:center;
-    }  */
+    } 
     
+    .header2{
+        width: 100%;
+        height: 65px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: black;
+        /* position:fixed; */
+    }
     
     .container1 img{
-      width:80%;
+        width:80%;
         height: 80%;
         margin-top: 150px;
         border: 2.5px solid rgb(0, 0, 0);
-    border-radius: 10%;
+        border-radius: 10%;
+        
     }
 
 
